@@ -17,6 +17,13 @@ Bootstrap Transformer is an innovative tool that simplifies the process of integ
 - **Instant Preview:** Provides an instant preview of the converted code to verify changes.
 - **Copy to Clipboard:** Easy copying of the converted code for quick integration into projects.
 
+### Technologies Used
+- **HTML:** Provides the basic structure of the web application.
+- **CSS:** Used for styling the application. Custom styles are defined in `style.css`.
+- **Bootstrap:** A popular front-end framework used to create responsive and modern web designs.
+- **JavaScript:** Adds interactivity to the application. Core logic is handled by `converter.js` and additional functionalities by `script.js`.
+- **CodeMirror:** A versatile text editor implemented in JavaScript for the input and output text areas.
+
 ## File Structure and Contents
 
 ### 1. `index.html`
@@ -36,30 +43,25 @@ The main JavaScript file that handles the logic of the application. It includes 
 ### 4. `README.md`
 This README file provides detailed documentation about the project, including an overview, features, file structure, and design choices. It serves as a guide for users and contributors to understand the project and its components.
 
-## Design Choices and Considerations
-
-### User Interface Design
-The user interface is designed to be simple and intuitive, allowing users to easily input their HTML code, convert it, and preview the results. The layout includes:
-- An input text area for users to paste their standard HTML code.
-- A "Convert" button to trigger the conversion process.
-- An output text area to display the converted Bootstrap HTML code.
-- A preview section to display the rendered Bootstrap HTML code.
-
-### Conversion Logic
-The conversion logic is implemented in the `script.js` file. It uses regular expressions and string manipulation techniques to identify standard HTML elements and replace them with their Bootstrap equivalents. For example, a standard `<button>` element is converted to a Bootstrap button by adding the appropriate classes (`btn`, `btn-primary`, etc.).
-
-### Instant Preview
-To provide an instant preview, the application dynamically updates an iframe with the converted HTML code. This allows users to see the changes in real-time and verify the conversion before copying the code.
-
-### Custom Styles
-The `style.css` file includes custom styles to enhance the appearance of the application. These styles ensure that the interface is clean, modern, and user-friendly. The custom styles also ensure compatibility with Bootstrap, preventing conflicts that could arise from default styles.
-
 ## Installation and Usage
-
-### Prerequisites
-To run the Bootstrap Transformer application locally, you need a web browser and a basic understanding of HTML and CSS.
 
 ### Installation
 1. Clone the repository:
+    
    ```bash
    git clone https://github.com/chandan01245/Bootstrap-Transformer.git
+
+### Usage
+1.**Open the index.html file in your web browser.**
+
+2.**Paste your standard HTML code into the input area.**
+
+3.**Click on the "Convert" button to transform the code into Bootstrap-compliant HTML.**
+
+4.**The converted code will appear in the output area, ready to be copied and used in your project.**
+
+5.**Check the instant preview to see how the converted code looks.**
+
+### Screenshot
+
+<img width="1079" alt="image" src="https://github.com/user-attachments/assets/a2d6688f-85ae-40de-8039-7bb4e372d783" />
