@@ -1,0 +1,223 @@
+/* Reset and base styles */
+body {
+    margin: 0;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #282a36;
+    color: #f8f8f2;
+}
+
+/* Main container */
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+/* Editor container */
+.editor-container {
+    height: calc(100vh - 250px); /* Adjust height based on the navbar and button heights */
+    overflow:hidden;
+}
+
+/* Editor row */
+.editor-row {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: auto;
+}
+
+/* Editor styling */
+.editor {
+    height: 100%;
+    font-family: monospace;
+    resize: none;
+    color: #f8f8f2;
+    border: none;
+    overflow: hidden;
+}
+
+/* Card styling */
+.editor-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #2d2d2d;
+    border: 1px solid #44475a;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #44475a;
+    color: #f8f8f2;
+    border-bottom: 1px solid #6272a4;
+}
+
+.card-body {
+    flex: 1;
+    padding: 0;
+    position: relative;
+    min-height: 0;
+    background-color: #2d2d2d;
+    overflow: hidden;
+}
+
+/* Button styling */
+.btn-copy, .btn-preview {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #E3FDFD;
+    color: #f8f8f2;
+    border: none;
+}
+
+.btn-copy:hover, .btn-preview:hover {
+    background-color: #6272a4;
+    color: #f8f8f2;
+}
+
+/* Loading state */
+.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+/* Error alert */
+#error-alert {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#error-alert .alert {
+    background-color: #ff5555;
+    color: #f8f8f2;
+    border: none;
+}
+
+/* Font selector */
+#font-selector {
+    width: 200px;
+    background-color: #44475a;
+    color: #f8f8f2;
+    border:solid;
+}
+
+#font-selector option {
+    background-color: #44475a;
+    color: #f8f8f2;
+}
+
+/* Navigation */
+.navbar-dark {
+    background-color: #44475a !important;
+}
+
+.navbar-dark .navbar-brand {
+    color: #f8f8f2;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f8f8f2;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #6272a4;
+}
+
+/* Tab styling */
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+    background-color:#526D82;
+    color: #f8f8f2;
+    border: none;
+    margin-right: 2px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color:#27374D;
+    color: #f8f8f2;
+    border: none;
+}
+
+.tab-content {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    height: 100%;
+}
+
+.tab-pane {
+    height: 100%;
+}
+
+/* CodeMirror customization */
+.CodeMirror {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto !important;
+}
+
+/* Button group styling */
+.button-group {
+    padding: 0.5rem 0;
+}
+
+.button-group .btn {
+    background-color: #181C14;
+    color: #f8f8f2;
+    border: none;
+}
+
+.button-group .btn:hover {
+    background-color: #6272a4;
+    color: #f8f8f2;
+}
+
+.button-group .btn-success {
+    background-color: #50fa7b;
+    color: #282a36;
+}
+
+.button-group .btn-success:hover {
+    background-color: #69ff94;
+    color: #282a36;
+}
+
+/* Preview iframe */
+#preview-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #f8f8f2;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2d2d2d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #44475a;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6272a4;
+}
