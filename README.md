@@ -1,14 +1,11 @@
 # Bootstrap Transformer
 
-Bootstrap Transformer is a web application designed to help developers convert their standard HTML code into Bootstrap-compliant code quickly and efficiently. This tool aims to save time and effort by automating the transformation process, allowing developers to leverage the power of Bootstrap with ease.
+Bootstrap Transformer is an innovative tool that simplifies the process of integrating Bootstrap into existing HTML projects. Bootstrap is a popular front-end framework that provides ready-to-use components and responsive design features, but converting existing HTML to Bootstrap manually can be time-consuming. Our application automates this conversion, making it easier for developers to upgrade their websites with modern, responsive designs.
 
 ## Video Demonstration
 [URL of your video](Insert your video URL here)
 
 ## Project Overview
-
-### Description
-Bootstrap Transformer is an innovative tool that simplifies the process of integrating Bootstrap into existing HTML projects. Bootstrap is a popular front-end framework that provides ready-to-use components and responsive design features, but converting existing HTML to Bootstrap manually can be time-consuming. Our application automates this conversion, making it easier for developers to upgrade their websites with modern, responsive designs.
 
 ### Features
 - **HTML to Bootstrap Conversion:** Automatically converts standard HTML code to Bootstrap-compatible HTML.
@@ -65,3 +62,5 @@ This README file provides detailed documentation about the project, including an
 ### Screenshot
 
 <img width="1079" alt="image" src="https://github.com/user-attachments/assets/a2d6688f-85ae-40de-8039-7bb4e372d783" />
+
+## I worked on this project as part of my "CS50's Introduction to Computer Science" Final Project.
